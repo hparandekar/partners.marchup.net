@@ -1,0 +1,12 @@
+---
+title: Profile
+subtitle: Your Marchup profile
+layout: default
+modal-id: 2
+date: 2024-03-14
+img: profile.png
+thumbnail: profile.png
+alt: image-alt
+description: This is your professional Marchup profile. You decide which sections to make visible. Once complete, AI will help generate your resume
+
+---

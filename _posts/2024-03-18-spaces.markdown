@@ -1,0 +1,12 @@
+---
+title: Marchup Spaces
+subtitle: List and create spaces
+layout: default
+modal-id: 4
+date: 2024-03-14
+img: spaces.png
+thumbnail: spaces.png
+alt: image-alt
+description: Looks for interesting spaces to join and follow. Create your own space with a click of a button!
+
+---

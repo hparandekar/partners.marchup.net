@@ -1,0 +1,24 @@
+name: Build and deploy Jekyll site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # or the name of your default branch
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1.4  # Keep this to match your local Ruby version
+          bundler: 2.4.19  # Updated to match your Gemfile.lock Bundler version
+          bundler-cache: true
+      - run: bundle install
+      - run: bundle exec jekyll build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: _site
+          path: _site
+

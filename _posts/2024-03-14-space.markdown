@@ -1,0 +1,12 @@
+---
+title: Space
+subtitle: Sample Marchup space
+layout: default
+modal-id: 5
+date: 2024-03-14
+img: space.png
+thumbnail: space.png
+alt: image-alt
+description: Build your own space. With modules such as blog stream, webpages, calendar, jobs and tasks promote and run your initiative easily.
+
+---

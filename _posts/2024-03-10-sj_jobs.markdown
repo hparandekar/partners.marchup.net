@@ -1,0 +1,12 @@
+---
+title: Jobs listing
+subtitle: Sample San Jose jobs
+layout: default
+modal-id: 6
+date: 2024-03-14
+img: sj_jobs.png
+thumbnail: sj_jobs.png
+alt: image-alt
+description: Easily search for jobs posted externally or within Marchup spaces
+
+---

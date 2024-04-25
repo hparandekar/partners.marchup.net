@@ -1,0 +1,12 @@
+---
+title: Search
+subtitle: One click search
+layout: default
+modal-id: 8
+date: 2024-03-14
+img: search.png
+thumbnail: search.png
+alt: image-alt
+description: Search for users, spaces, jobs, content with one single search bar
+
+---

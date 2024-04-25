@@ -1,0 +1,59 @@
+url: https://marchup.net
+baseurl: ""
+
+# Site settings
+title: Marchup
+email: hparandekar@gmail.com
+description: "A for students, by students social network that helps high schoolers and undergrad students build a professional online profile, connect with like minded people, showcase their passions and create projects and initiatives"
+
+
+# Team names, titles and social links
+people:
+- name: Harsh Parandekar
+  pic: 1
+  position: Founder and CEO
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/hparandekar/
+
+#- name: Preeti Kelkar
+#  pic: 2
+#  position: Advisor
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/preeti-kelkar/
+#    - title: facebook
+#      url: https://www.facebook.com/preeti.kelkar
+
+- name: Anushka Parandekar
+  pic: 3
+  position: Student Advisor
+  social:
+    - title: instagram
+      url: https://www.instagram.com/aurora.by.anushka/?hl=en
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+- title: instagram
+  url: https://www.instagram.com/marchupnet
+- title: linkedin
+  url: https://www.linkedin.com/company/marchup
+# - title: twitter
+#    url: http://twitter.com/jekyllrb
+#  - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket 
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
