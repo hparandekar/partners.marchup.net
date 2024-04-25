@@ -8,6 +8,7 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
+            var organization = $("input#organization").val();
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
@@ -18,9 +19,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://formspree.io/f/xpzgyyyr", // Formspree URL
+                url: "https://formspree.io/f/mleqayen", // Formspree URL
                 type: "POST",
                 data: {
+                    organization: organization,
                     name: name,
                     phone: phone,
                     email: email,
