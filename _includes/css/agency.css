@@ -18,6 +18,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-tertiary {
+    color: #{{ site.data.template.color.tertiary }};
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -692,7 +696,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 335px;
+    height: 236px;
     color: black !important;
 }
 
