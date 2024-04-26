@@ -1,5 +1,5 @@
 ---
-title: Internships
+title: Job Board
 subtitle: Internship search sample
 layout: default
 modal-id: 7
